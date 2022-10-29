@@ -2,11 +2,11 @@ using Unity.Custom.Lifetime.Test.Interfaces;
 
 namespace Unity.Custom.Lifetime.Test.Impl;
 
-public class Repository : IRepository
+public class Cache : ICache
 {
     private bool disposed;
 
-    public Repository()
+    public Cache()
     {
         
     }
